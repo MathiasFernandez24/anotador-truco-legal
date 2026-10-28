@@ -6,7 +6,7 @@
     <title>Política de privacidad · Anotador truco PRO</title>
     <meta
       name="description"
-      content="Qué datos usa Anotador truco PRO: la partida queda en tu teléfono y solo se envía un conteo anónimo de partidas."
+      content="Qué datos usa Anotador truco PRO: el contador queda en tu teléfono, la mesa con cartas pasa por nuestro servidor mientras se juega y solo se envía un conteo anónimo de partidas."
     />
     <style>
       /* Colors of the "Pino" mesa of the app. No external fonts or scripts: this page makes no
@@ -68,21 +68,29 @@
   <body>
     <main>
       <h1>Política de privacidad · Anotador truco PRO</h1>
-      <p class="updated">Última actualización: 9 de octubre de 2026</p>
+      <p class="updated">Última actualización: 28 de octubre de 2026</p>
 
       <p>
-        Anotador truco PRO (“la app”) es una app para anotar los puntos de partidas de truco. La
-        desarrolla Mathias Fernandez (“nosotros”). Esta política explica qué datos se usan y para
-        qué.
+        Anotador truco PRO (“la app”) es una app para anotar los puntos de partidas de truco y para
+        jugarlas con cartas, cada uno desde su teléfono. La desarrolla Mathias Fernandez
+        (“nosotros”). Esta política explica qué datos se usan y para qué.
       </p>
 
-      <h2>Lo que guarda la app</h2>
+      <h2>Lo que guarda la app en tu teléfono</h2>
       <ul>
         <li>
-          La partida en curso (nombres de los equipos y puntos) y tus preferencias (mesa, tablero,
-          voz, sonidos, vibración).
+          La partida del contador (nombres de los equipos y puntos), el último resultado y tus
+          preferencias (fondo, voz, sonidos, vibración).
         </li>
-        <li>Todo queda <strong>solo en tu teléfono</strong>. No hay cuentas y no pedimos datos personales.</li>
+        <li>
+          Para la mesa con cartas: el nombre con el que jugás, lo que elegiste al armar la última
+          mesa, el último resultado con los nombres de los que jugaron y, durante 2 horas, la mesa
+          a la que podés volver (su código y una clave para volver a tu lugar).
+        </li>
+        <li>
+          Todo eso queda <strong>solo en tu teléfono</strong>. No hay cuentas: en la mesa elegís un
+          nombre para que te vean los demás, y puede ser un apodo.
+        </li>
         <li>
           Se borra al desinstalar la app o al borrar sus datos desde los ajustes del teléfono. La
           app no participa de la copia de seguridad de Google: en un teléfono nuevo se empieza de
@@ -90,31 +98,91 @@
         </li>
       </ul>
 
+      <h2>Mesa con cartas</h2>
+      <p>
+        Para jugar con un teléfono por jugador, la app se conecta a nuestro servidor, que reparte
+        las cartas y lleva la partida. Solo cuando usás la mesa con cartas:
+      </p>
+      <ul>
+        <li>
+          <strong>Qué se envía:</strong> el nombre que elegiste, lo que elegís al armar la mesa
+          (cuántos juegan, para qué lado, punta y hacha), las cartas que jugás, si te vas al mazo o
+          mostrás cartas, los puntos que carga el que anota, si tu teléfono sigue conectado y la
+          versión de la app.
+        </li>
+        <li>
+          <strong>Quién lo ve:</strong> los demás jugadores de esa mesa ven tu nombre, las cartas
+          jugadas o mostradas y los puntos; las cartas de tu mano las ve solo tu teléfono. Quien
+          tenga el código de la mesa (el QR o sus 4 signos) puede ver los nombres de los que están
+          y sumarse si hay lugar.
+        </li>
+        <li>
+          <strong>Cuánto se guarda:</strong> la mesa queda guardada en el servidor mientras dura y
+          se borra entera un día después de cerrarse. La cierra el que la armó, o se cierra sola
+          después de 2 horas sin jugar.
+        </li>
+        <li>
+          <strong>Sin cuentas:</strong> no pedimos correo, teléfono ni contraseña. El servidor le
+          da a tu teléfono una clave al azar para volver a tu lugar si se corta la conexión.
+        </li>
+        <li>
+          <strong>Dirección IP:</strong> se usa para conectarte. Si desde ella se prueban códigos
+          que no son de ninguna mesa, el servidor la anota solo en su memoria, sin guardarla, para
+          frenar a quien intente adivinarlos. Nuestro servidor no guarda registros con direcciones
+          IP, nombres ni códigos.
+        </li>
+        <li>
+          <strong>Dónde:</strong> el servidor funciona en
+          <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a>, un proveedor de
+          servicios en la nube, que guarda cada mesa en un centro de datos cercano a quien la arma;
+          para las mesas armadas desde Sudamérica, hoy en el este de Estados Unidos. Los datos
+          viajan cifrados.
+        </li>
+      </ul>
+      <p>
+        No usamos estos datos para otra cosa que la partida, no los vendemos ni los compartimos.
+      </p>
+
+      <h2>Cámara</h2>
+      <p>
+        En Unirse, si la permitís, la app usa la cámara solo para leer el QR de la mesa; si no,
+        escribís el código. Las imágenes se procesan en el teléfono y no se guardan ni se envían.
+        Para leer el QR, Android usa ML Kit de Google, que procesa la imagen en el teléfono y le
+        envía a Google datos técnicos de su funcionamiento (modelo y sistema del teléfono, versión
+        de la app, un identificador de la instalación y cuánto tardó), para diagnóstico y para
+        mejorar ese servicio
+        (<a href="https://developers.google.com/ml-kit/terms">condiciones y privacidad de ML Kit</a>).
+      </p>
+
       <h2>Estadísticas de uso anónimas</h2>
       <p>
         Para saber cuánto se usa la app, envía avisos anónimos a
         <a href="https://aptabase.com">Aptabase</a>, un servicio de estadísticas, en estos
-        momentos: al abrirla, al empezar una partida y cuando la partida termina o se deja sin
-        terminar. Los avisos incluyen:
+        momentos: al abrirla, al empezar una partida del contador y cuando termina o se deja sin
+        terminar, al armar una mesa con cartas y cuando termina una partida de la mesa. Los avisos
+        incluyen:
       </p>
       <ul>
         <li>
-          los ajustes de la partida: disposición del teléfono, tablero (A 30 o A 15), forma de
-          anotar los cantos, mesa, si es una revancha, si se juega de punta y hacha y cómo habla
-          Don Zonda;
+          los ajustes de la partida: disposición del teléfono, forma de anotar los cantos, fondo, si
+          es una revancha, si se juega de punta y hacha y cómo habla Don Zonda;
         </li>
         <li>
           al terminar o dejar una partida: cuántos minutos se jugó, cuántas jugadas se anotaron y,
           si quedó sin terminar, de qué forma se dejó;
         </li>
+        <li>
+          en la mesa con cartas: cuántos juegan, el fondo y si se juega de punta y hacha al armarla;
+          cuántos juegan, cuántas manos y cuántos minutos duró y si fue una revancha al terminar;
+        </li>
         <li>al abrir la app: si había una partida sin terminar;</li>
         <li>la versión de la app y del sistema operativo.</li>
       </ul>
       <p>
-        <strong>No</strong> se envían los nombres de los equipos, los puntos ni ningún
-        identificador del teléfono o de publicidad. Aptabase usa la dirección IP solo para deducir
-        el país y no la guarda. Los datos viajan cifrados, se procesan en servidores de la Unión
-        Europea (Alemania) y Aptabase los conserva hasta 5 años
+        <strong>No</strong> se envían los nombres de los equipos o de los jugadores, los puntos, el
+        código de la mesa ni ningún identificador del teléfono o de publicidad. Aptabase usa la
+        dirección IP solo para deducir el país y no la guarda. Los datos viajan cifrados, se
+        procesan en servidores de la Unión Europea (Alemania) y Aptabase los conserva hasta 5 años
         (<a href="https://aptabase.com/legal/privacy">política de privacidad de Aptabase</a>). Como
         son anónimos, no se pueden asociar a una persona ni, por eso, consultar o borrar los de
         alguien en particular.
@@ -125,8 +193,18 @@
 
       <h2>Permisos</h2>
       <ul>
-        <li><strong>Internet:</strong> para enviar las estadísticas anónimas. Sin conexión, la app funciona igual.</li>
-        <li><strong>Vibración:</strong> para la vibración al anotar; se apaga en Ajustes.</li>
+        <li>
+          <strong>Internet:</strong> para la mesa con cartas y para enviar las estadísticas
+          anónimas. Sin conexión, el contador funciona igual; la mesa con cartas necesita conexión.
+        </li>
+        <li>
+          <strong>Cámara:</strong> solo para leer el QR de la mesa; sin el permiso, se escribe el
+          código.
+        </li>
+        <li>
+          <strong>Vibración:</strong> para la vibración al anotar y en tu turno; se apaga en
+          Ajustes.
+        </li>
       </ul>
 
       <h2>Menores</h2>
