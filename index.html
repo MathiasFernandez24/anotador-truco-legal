@@ -17,6 +17,7 @@
         --ink: #201e1d;
         --soft: #645c50;
         --acc: #b2622d;
+        --line: rgba(32, 30, 29, 0.16);
       }
       * {
         box-sizing: border-box;
@@ -63,6 +64,24 @@
       li {
         margin: 4px 0;
       }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 8px 0 4px;
+        font-size: 0.95rem;
+      }
+      th,
+      td {
+        text-align: left;
+        vertical-align: top;
+        padding: 8px 10px 8px 0;
+        border-top: 1px solid var(--line);
+        overflow-wrap: anywhere;
+      }
+      th {
+        width: 30%;
+        font-weight: 600;
+      }
     </style>
   </head>
   <body>
@@ -75,6 +94,51 @@
         jugarlas con cartas, cada uno desde su teléfono. La desarrolla Mathias Fernandez
         (“nosotros”). Esta política explica qué datos se usan y para qué.
       </p>
+
+      <h2>Información básica sobre protección de datos</h2>
+      <table>
+        <tr>
+          <th scope="row">Responsable</th>
+          <td>
+            Mathias Fernandez ·
+            <a href="mailto:mathiasfernandez24@gmail.com">mathiasfernandez24@gmail.com</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Finalidad</th>
+          <td>
+            Jugar en la Mesa sin mazo, cada uno desde su teléfono, y saber con estadísticas cuánto
+            y cómo se usa la app. Las partidas del contador quedan en tu teléfono.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Legitimación</th>
+          <td>
+            La Mesa sin mazo: darte el servicio que pedís al crear una mesa o sumarte a una. Las
+            estadísticas: nuestro interés legítimo; las podés apagar en Ajustes.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Destinatarios</th>
+          <td>
+            No vendemos ni cedemos tus datos. Los tratan por cuenta nuestra Cloudflare (el servidor
+            de la mesa) y Aptabase (las estadísticas, en la Unión Europea). Las mesas creadas desde
+            Sudamérica se guardan en Estados Unidos.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Derechos</th>
+          <td>
+            Acceder, rectificar y suprimir tus datos, oponerte y otros derechos, como se explica en
+            <a href="#derechos">“Tus derechos”</a>; y reclamar ante la autoridad de protección de
+            datos.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Más información</th>
+          <td>En el resto de esta página.</td>
+        </tr>
+      </table>
 
       <h2>Lo que guarda la app en tu teléfono</h2>
       <ul>
@@ -202,6 +266,10 @@
         no hay forma de saber qué avisos son de quién, no se pueden consultar ni borrar los de
         alguien en particular.
       </p>
+      <p>
+        Podés apagarlas cuando quieras en Ajustes → Durante la partida → Estadísticas de uso.
+        Apagadas, la app deja de mandar avisos y descarta los que tenía por mandar.
+      </p>
 
       <h2>Publicidad</h2>
       <p>La app no muestra publicidad.</p>
@@ -221,6 +289,64 @@
           Ajustes.
         </li>
       </ul>
+
+      <h2>Por qué podemos usar estos datos</h2>
+      <ul>
+        <li>
+          <strong>Mesa sin mazo:</strong> para darte el servicio que pedís al crear una mesa o
+          sumarte a una (ejecución de un contrato, art. 6.1.b del RGPD). Sin tu nombre y la conexión
+          no se puede jugar en la mesa; el contador funciona sin ella.
+        </li>
+        <li>
+          <strong>Estadísticas de uso:</strong> nuestro interés legítimo en saber cuánto y cómo se
+          usa la app, para mejorarla y decidir si sumar publicidad (art. 6.1.f del RGPD). Lo pesamos
+          contra tu privacidad: no viajan nombres ni identificadores del teléfono, el código que une
+          los avisos de un día no se puede rehacer después de 48 horas, y las podés apagar cuando
+          quieras.
+        </li>
+      </ul>
+
+      <h2>Quién recibe tus datos</h2>
+      <p>
+        No vendemos ni cedemos tus datos a nadie. Los tratan por cuenta nuestra, como encargados del
+        tratamiento:
+      </p>
+      <ul>
+        <li>
+          <strong>Cloudflare</strong>, para el servidor de la Mesa sin mazo. Las mesas creadas desde
+          Sudamérica se guardan hoy en el este de Estados Unidos; para esas transferencias,
+          Cloudflare se apoya en el Marco de Privacidad de Datos UE-EE. UU., que la Comisión Europea
+          reconoce como adecuado, y si hiciera falta en las cláusulas contractuales tipo
+          (<a href="https://www.cloudflare.com/trust-hub/gdpr/">Cloudflare y el RGPD</a>).
+        </li>
+        <li>
+          <strong>Aptabase</strong> (Technov Solutions SRL, Rumania), para las estadísticas de uso,
+          que guarda en la Unión Europea (Alemania).
+        </li>
+      </ul>
+      <p>Al leer un QR, Google recibe los datos técnicos de ML Kit que se cuentan en “Cámara”.</p>
+
+      <h2 id="derechos">Tus derechos</h2>
+      <p>
+        Podés pedir acceder a tus datos, rectificarlos o suprimirlos, limitar su uso, oponerte a que
+        se usen y recibirlos para llevarlos a otro servicio, escribiendo a
+        <a href="mailto:mathiasfernandez24@gmail.com">mathiasfernandez24@gmail.com</a>. En la
+        práctica:
+      </p>
+      <ul>
+        <li>lo que guarda el teléfono lo borrás vos al desinstalar la app o al borrar sus datos;</li>
+        <li>la mesa se borra sola un día después de cerrarse;</li>
+        <li>
+          para oponerte a las estadísticas de uso, apagalas en Ajustes → Durante la partida →
+          Estadísticas de uso. Como no hay forma de saber qué avisos son de quién, no podemos
+          consultarlos ni borrarlos uno por uno.
+        </li>
+      </ul>
+      <p>
+        Si creés que no respetamos tus derechos, podés reclamar ante la Agencia Española de
+        Protección de Datos (<a href="https://www.aepd.es">aepd.es</a>, C/ Jorge Juan 6, 28001
+        Madrid) o ante la autoridad de protección de datos de tu país.
+      </p>
 
       <h2>Menores</h2>
       <p>La app está pensada para personas mayores de 18 años y no está dirigida a menores.</p>
